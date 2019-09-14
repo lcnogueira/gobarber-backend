@@ -13,6 +13,9 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
+  env: {
+    "jest/globals": true
+  },
   rules: {
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
